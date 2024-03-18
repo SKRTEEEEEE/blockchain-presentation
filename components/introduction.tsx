@@ -5,20 +5,20 @@ import { TypeAnimation } from 'react-type-animation';
 const Introduction = () => {
     return (
         <div className="z-20 w-full bg-darkBg/60">
-            <div className="z-20 flex items-center justify-around h-full p-6 py-20 md:py-s0 md:grid-cols-2">
+            <div className="z-20 flex items-center justify-around h-full p-6 py-20">
                 <Image src="/home-4.png" priority width="300" height="800" className="hidden sm:flex" alt="Avatar" />
-                <div className="flex flex-col justify-center max-w-md">
-                    <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">Desarollando, <br />
+                <div className="flex flex-col justify-center w-3/4">
+                    <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">Tecnologia {" "}
                         <TypeAnimation
                             sequence={[
-                                'la nueva generacion web descentralizada',
+                                'eficiente',
                                 2000,
-                                'branding web para proyectos inovadores', 
+                                'colaborativa', 
                                 2000,
-                                'la interaccion entre mundo real y web3',
+                                'sostenible',
                                 2000,
-                                'con las tecnologías web del futuro.',
-                                5000
+                                'blockchain.',
+                                10000
                             ]}
                             wrapper="span"
                             speed={50}
@@ -26,19 +26,27 @@ const Introduction = () => {
                             className="font-bold text-secondary"
                         />
                     </h1>
-
-                    <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
-                        Fullstack especializado en tecnologias escalables e descentralizadas, enfocado en ofrecer una experiencia de usuario agradable a traves de funcionalidad interactiva y seguridad.
+                    <div className="mx-auto mb-2 md:mx-0 md:mb-8">
+                    <p className="text-xl md:text-xl">
+                        Explora las posibilidades del ecosistema tecnologico 3.0 
                     </p>
+                    <ol className="mt-2">
+                        <li>Descubre todas las posibilidades al aplicar en su marca las ventajas de esta nueva era tecnologica 🤖</li>
+                        <li>Encuentra la manera mas ideal para aplicar estas ventajas en tu marca 👌</li>
+                    </ol>
+                    </div>
 
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
-                        <Link href="https://github.com/SKRTEEEEEE" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
-                            Ver proyectos
+                        <Link href="https://tokenizacion.my.canva.site/ventajas-tecnologicas-3" target="_blank" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
+                            🧑‍💻 Web Ventajas Tecnologias 3.0
                         </Link>
-                        <a href="mailto:adanreh.m@gmail.com"
+                        <Link href="#Al PDF" target="_blank" className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary">
+                            📄 PDF Ventajas Tecnologias 3.0
+                        </Link>
+                        {/* <a href="mailto:adanreh.m@gmail.com"
                             className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary" >
                             Contacta conmigo
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>
