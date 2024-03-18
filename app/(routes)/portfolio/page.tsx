@@ -7,7 +7,8 @@ import AvatarPortfolio from "@/components/avatar-portfolio";
 import CircleImage from "@/components/circle-image";
 import TransitionPage from "@/components/transition-page";
 import ContainerPage from "@/components/container-page";
-import PortfolioBox from "@/components/portfolio-box";
+import SliderPortfolio from "@/components/slider-portfolio";
+
 
 
 const PortfolioPage = () => {
@@ -18,17 +19,33 @@ const PortfolioPage = () => {
     return (
         <ContainerPage>
             <TransitionPage />
-            <AvatarPortfolio />
+            <>
+            
             <CircleImage />
-            <div className="flex flex-col justify-center h-full">
-                <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">Ejemplos <span className="font-bold text-secondary">open-source</span> destacados</h1>
+            <AvatarPortfolio />
+            <h2 className="text-xl leading-tight text-center sm:text-left xl:text-4xl xl:mb-5">Dentro de las posibilidades de uso de la tecnología Blockchain en empresas tradicionales, destaca la <span className="font-bold text-secondary">vinculación de los productos fisicos a los NFT</span> (Tokens No Fungibles):  </h2>
+            <div className="md:grid flex flex-col items-center justify-center max-w-5xl md:gap-6 gap-6 mx-auto md:grid-cols-2">
+                <div className="max-w-[450px]">
 
-                <div className="relative z-10 grid max-w-5xl gap-6 mx-auto mt-4 md:grid-cols-4">
-                    {data4.map((data) => (
-                        <PortfolioBox key={data.id} data={data} />
-                    ))}
+                   
+                    
+                        <ul className="xl:text-xl 
+                    text-gray-300">
+                            <li className="mb-2 border-secondary/10 border-4 rounded-md">
+                            ➡️ Ya sea a través de la liberación periodica de NFTs (por la compra de cierta cantidad de productos, como premio por la fidelidad de sus clientes, por participar en ciertos sorteos, etc…) o la posibilidad de vincular directamente NFTs por cada compra realizada en su marca.
+                            </li>
+                            <li className="mb-2 border-secondary/10 border-4 rounded-md">➡️ Esta vinculación a traves de Smart Contracts permite sentar las bases para la creación de una experiencia única para los consumidores.  </li>
+                        </ul>
+                        
+                    {/* <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contacta conmigo</button> */}
+                </div>
+
+                {/* SLIDER */}
+                <div>
+                    <SliderPortfolio/>
                 </div>
             </div>
+        </>
         </ContainerPage>
     );
 }

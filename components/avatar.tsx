@@ -7,8 +7,8 @@ import { MotionTransition } from "./transition-component";
 
 export function Avatar() {
     return (
-        <MotionTransition position="bottom" className="top-14 right-0 hidden md:inline-block md:absolute ">
-            <Image src="/avatar1.svg" width="550" height="550" className="" alt="Particles " />
+        <MotionTransition position="bottom" className="top-14 right-2 hidden xl:inline-block xl:absolute ">
+            <Image src="/avatar1.svg" width="400" height="400" className="" alt="Particles " />
         </MotionTransition>
     )
 }

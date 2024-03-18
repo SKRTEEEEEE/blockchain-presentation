@@ -5,8 +5,7 @@ import { Pagination } from 'swiper/modules';
 
 import { serviceData } from '@/data';
 
-const SliderServices = () => {
-
+const SliderPortfolio = () => {
     return (
         <Swiper
             breakpoints={{
@@ -23,11 +22,9 @@ const SliderServices = () => {
             }}
             freeMode={true}
             pagination={{
-                clickable: true,
-                
+                clickable: true
             }}
             modules={[Pagination]}
-
             className="h-[240px] md:h-[340px] w-[350px] lg:w-[500px] md:w-[400px]"
         >
 
@@ -48,4 +45,4 @@ const SliderServices = () => {
     );
 }
 
-export default SliderServices;
+export default SliderPortfolio;
