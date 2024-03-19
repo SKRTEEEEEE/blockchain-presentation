@@ -1,21 +1,30 @@
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+# Blockchain presentation
+<a href="https://github.com/SKRTEEEEEE">
+<div align="center">
+  <img  src="https://github.com/SKRTEEEEEE/SKRTEEEEEE/blob/main/resources/img/grid-snake.svg"
+       alt="snake" />
+    
+</div>
+</a>
 
-## Getting Started
+Presentación de las posibilidades de aplicaciones de las tecnologías blockchain en empresas tradicionales.
 
-First, run the development server:
+## [Recursos](markdown/recursos.md)
 
-```bash
-npm install
-npm run dev
-```
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contacto
 
-<img width="1680" alt="Screenshot 2024-02-12 at 16 24 45" src="https://github.com/ratasi/landing-page-particles/assets/16082370/ad4315fe-c97f-4788-b1b5-5117836779ae">
+### Agradecimientos
 
-<img width="1680" alt="Screenshot 2024-02-12 at 16 26 28" src="https://github.com/ratasi/landing-page-particles/assets/16082370/8fbd1765-1255-4f3d-91a8-46de04bfd055">
+### Licencia
 
-<img width="1680" alt="Screenshot 2024-02-12 at 16 49 37" src="https://github.com/ratasi/landing-page-particles/assets/16082370/38827044-a2f4-455c-a9a7-987dda752c9e">
+### Información de Contacto
 
-<img width="1678" alt="Screenshot 2024-02-12 at 16 33 26" src="https://github.com/ratasi/landing-page-particles/assets/16082370/fa7cf285-b091-4811-b464-db63c3b52c72">
+#### [Enviame un mensaje](mailto:adanreh.m@gmail.com)
 
-<img width="1680" alt="Screenshot 2024-02-12 at 16 49 45" src="https://github.com/ratasi/landing-page-particles/assets/16082370/54aa5cca-913c-444e-8495-1007e5630aa7">
+### Contribuciones y Problemas
+
+Si encuentras problemas o deseas contribuir al proyecto, por favor, crea un issue en el repositorio.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">

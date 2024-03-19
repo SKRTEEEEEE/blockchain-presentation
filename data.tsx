@@ -1,17 +1,17 @@
-import { HomeIcon,  Github, Mail, Link, PackageSearch, ZoomIn, Bitcoin } from "lucide-react";
+import { HomeIcon,  Github, Mail, Link, PackageSearch, ZoomIn, Bitcoin, UserRoundSearch } from "lucide-react";
 import { IoBusinessOutline } from "react-icons/io5";
 
 export const socialNetworks = [
     {
-        id: 1,
+        id: 3,
         logo: <Github  size={30} strokeWidth={1} />,
         src: "https://github.com/SKRTEEEEEE",
     },
-    // {
-    //     id: 2,
-    //     logo: <Linkedin size={30} strokeWidth={1} />,
-    //     src: "https://github.com/SKRTEEEEEE",
-    // },
+    {
+        id: 1,
+        logo: <UserRoundSearch size={30} strokeWidth={1} />,
+        src: "https://profile-skrt.vercel.app/",
+    },
     {
         id: 2,
         logo: <Mail size={30} strokeWidth={1} />,
@@ -67,7 +67,7 @@ export const dataStudiesPage = [
         id: 1,
         title: "Contratos inteligentes",
         description: 
-            "Los contratos inteligentes son programas informáticos autoejecutables que se ejecutan en la blockchain cuando se cumplen ciertas condiciones predefinidas. Las empresas pueden utilizar contratos inteligentes para automatizar procesos comerciales, lo que reduce la necesidad de intermediarios y minimiza los errores humanos.",
+            "Los contratos inteligentes son programas informáticos auto ejecutables que se ejecutan en la blockchain cuando se cumplen ciertas condiciones predefinidas. Las empresas pueden utilizar contratos inteligentes para automatizar procesos comerciales, lo que reduce la necesidad de intermediarios y minimiza los errores humanos.",
     },
     {
         id: 2,
@@ -109,7 +109,7 @@ export const serviceData = [
     },
     {
         image: "/fidelizacion-clientes.png",
-        title: "Fidelización de clientes",
+        title: "Finalización de clientes",
         description: "Los usuarios se sentirán más apegados a la marca al disfrutar de actividades entretenidas a través de sus NFTs, lo que aumentará la fidelidad hacia los productos reales asociados..",
     },
     {
@@ -124,7 +124,7 @@ export const serviceData = [
     },
     {
         image: "/potencial-interes.png",
-        title: "Potencial de viralidad",
+        title: "Potencial viral",
         description: "Los juegos y herramientas interactivas pueden ser compartidos en redes sociales, generando interés y viralidad en torno a la marca y sus productos asociados.",
     },
     {
@@ -194,7 +194,7 @@ export const defiSection = [
         id: 6,
         name: "Aceptación de Pagos con NFTs",
         description:
-            "Permite coleccionar arte digital, el cual por razones artistícas o comerciales le interese a su marca.",
+            "Permite coleccionar arte digital, el cual por razones artísticas o comerciales le interese a su marca.",
         imageUrl: "/nftspay.png",
        
     },

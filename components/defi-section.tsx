@@ -9,7 +9,7 @@ const DefiSection = () => {
             <div className="z-20 flex items-center justify-around h-full p-6 py-20">
                 <Image src="/avatar-code.png" priority width="260" height="600" className="hidden md:flex" alt="Avatar" />
                 <div className="flex flex-col justify-center md:w-3/4">
-                    <h1 className="xl:mt-8 lg:mt-4 lg:mb-4 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">Tecnologia De-Fi y{" "}<span className="text-secondary">Pagos con criptoactivos</span>
+                    <h1 className="xl:mt-8 lg:mt-4 lg:mb-4 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">Tecnología De-Fi y{" "}<span className="text-secondary">Pagos con criptoactivos</span>
 
                     </h1>
                     <div className="flex xl:flex-row flex-col mx-auto mb-2 md:mx-0 mb-8">
