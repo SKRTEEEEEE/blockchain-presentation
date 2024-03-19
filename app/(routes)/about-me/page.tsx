@@ -3,7 +3,7 @@ import CircleImage from "@/components/circle-image";
 import SliderServices from "@/components/slider-services";
 // import TransitionPage from "@/components/transition-page";
 
-const AboutMePage = () => {
+const FuncionalidadesPage = () => {
     return (
         <>
             
@@ -34,4 +34,4 @@ Algunas de las ventajas de incluir dichas funciones son:
     );
 }
 
-export default AboutMePage;
+export default FuncionalidadesPage;

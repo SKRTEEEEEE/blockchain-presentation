@@ -1,19 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { dataPortfolio } from "@/data";
 
 import AvatarPortfolio from "@/components/avatar-portfolio";
-import CircleImage from "@/components/circle-image";
+// import CircleImage from "@/components/circle-image";
 import TransitionPage from "@/components/transition-page";
 import ContainerPage from "@/components/container-page";
-import SliderPortfolio from "@/components/slider-portfolio";
+
 
 
 
 const PortfolioPage = () => {
-    console.log(dataPortfolio);
-    const data4 = dataPortfolio.slice(4)
+
     
 
     return (
@@ -21,7 +19,7 @@ const PortfolioPage = () => {
             <TransitionPage />
             <>
             
-            <CircleImage />
+            {/* <CircleImage /> */}
             <AvatarPortfolio />
             <h2 className="text-xl leading-tight text-center sm:text-left xl:text-4xl xl:mb-5">Dentro de las posibilidades de uso de la tecnología Blockchain en empresas tradicionales, destaca la <span className="font-bold text-secondary">vinculación de los productos fisicos a los NFT</span> (Tokens No Fungibles):  </h2>
             <div className="md:grid flex flex-col items-center justify-center max-w-5xl md:gap-6 gap-6 mx-auto md:grid-cols-2">
@@ -41,9 +39,9 @@ const PortfolioPage = () => {
                 </div>
 
                 {/* SLIDER */}
-                <div>
-                    <SliderPortfolio/>
-                </div>
+                <Link target="_blank" href={"https://drive.google.com/file/d/1RB9X47OnetwKE7oLMrpMKSnOj-gYwi5F/view?usp=drive_link"} className="border-4 rounded-md border-secondary/80 hover:bg-white/20 hover:border-secondary/40 p-4">
+                    <Image src="/VinculacionNFT.jpg" alt="Vinculación de los productos fisicos a los NFT" height={300} width={600} className="border-4 rounded-md border-white" />
+                </Link>
             </div>
         </>
         </ContainerPage>

@@ -7,7 +7,7 @@ import { MotionTransition } from './transition-component';
 const AvatarPortfolio = () => {
     return (
         <MotionTransition position='bottom' className="bottom-0 left-0 hidden md:inline-block md:absolute ">
-            <Image src="/avatar-works.png" width="200" height="300" className="w-full h-full " alt="Particles " />
+            <Image src="/hero-vinculacion.png" width="200" height="300" className="w-full h-full " alt="Particles " />
         </MotionTransition>
 
     );

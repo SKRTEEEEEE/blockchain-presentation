@@ -1,4 +1,4 @@
-import { HomeIcon,  Github, Mail, Link, PackageSearch } from "lucide-react";
+import { HomeIcon,  Github, Mail, Link, PackageSearch, ZoomIn } from "lucide-react";
 import { FaNodeJs, FaReact } from "react-icons/fa";
 import { IoBusinessOutline } from "react-icons/io5";
 import { RiNftLine } from "react-icons/ri";
@@ -61,7 +61,7 @@ export const itemsNavbar = [
     {
         id: 5,
         title: "Code",
-        icon: <RiNftLine size={25} color="#fff" strokeWidth={1} />,
+        icon: <ZoomIn  size={25} color="#fff" strokeWidth={1} />,
         link: "/code",
     },
 ];
@@ -134,122 +134,55 @@ export const dataCounter = [
 
 export const serviceData = [
     {
-        icon: <FaReact />,
+        image: "/compromiso.png",
         title: "Aumento del compromiso",
         description: "Los juegos y herramientas interactivas mantendrán a los usuarios comprometidos con la marca, ya que buscarán participar en las actividades relacionadas con sus NFTs.",
     },
     {
-        icon: <SiTailwindcss />,
+        image: "/competencia.png",
         title: "Diferenciación de la competencia",
         description: "La integración de juegos y herramientas interactivas en los NFTs destacará la marca frente a la competencia, ofreciendo una experiencia única y atractiva.",
     },
     {
-        icon: <TbBrandNextjs />,
+        image: "/fidelizacion-clientes.png",
         title: "Fidelización de clientes",
         description: "Los usuarios se sentirán más apegados a la marca al disfrutar de actividades entretenidas a través de sus NFTs, lo que aumentará la fidelidad hacia los productos reales asociados..",
     },
     {
-        icon: <FaNodeJs />,
+        image: "/visibilidad.png",
         title: "Mayor visibilidad de la marca",
         description: "Al ofrecer una experiencia interactiva, la marca ganará mayor visibilidad en plataformas digitales, lo que atraerá a nuevos clientes potenciales.",
     },
     {
-        icon: <SiSolidity />,
+        image: "/ingresos-ad.png",
         title: "Generación de ingresos adicionales",
         description: "La implementación de juegos y herramientas interactivas puede abrir nuevas oportunidades de ingresos a través de la venta de productos virtuales relacionados con los NFTs. ",
     },
     {
-        icon: <SiSolidity />,
+        image: "/potencial-interes.png",
         title: "Potencial de viralidad",
         description: "Los juegos y herramientas interactivas pueden ser compartidos en redes sociales, generando interés y viralidad en torno a la marca y sus productos asociados.",
     },
     {
-        icon: <SiSolidity />,
+        image: "/fidelizacion-clientes.png",
         title: "Experiencia de usuario mejorada",
         description: "Los usuarios disfrutarán de una experiencia más enriquecedora al interactuar con sus NFTs a través de juegos y herramientas, lo que potenciará su satisfacción.",
     },
     {
-        icon: <SiSolidity />,
+        image: "/comunidad.png",
         title: "Ampliación de la comunidad",
         description: "La implementación de actividades interactivas atraerá a nuevos miembros a la comunidad de usuarios de los NFTs, fortaleciendo la red de seguidores de la marca.",
     },
     {
-        icon: <SiSolidity />,
+        image: "/posicionamiento.png",
         title: "Posicionamiento como marca innovadora",
         description: "La adopción de tecnologías como los NFTs con funciones adicionales posicionará a la marca como innovadora y a la vanguardia en su industria.",
     },
     {
-        icon: <SiSolidity />,
+        image: "/colaboraciones.png",
         title: "Oportunidades de colaboración",
         description: "La integración abrirá oportunidades de colaboración con desarrolladores de juegos, aplicaciones, blockchains existentes, etc... Enriqueciendo la oferta de la marca y mejorando en engangment.",
     },
-];
-
-export const dataPortfolio = [
-    {
-        id: 1,
-        title: "Working Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#https://github.com/SKRTEEEEEE/frontpruebas",
-        urlDemo: "#",
-        operative: false,
-    },
-    {
-        id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        operative: false,
-    },
-    {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        operative: false,
-    },
-    {
-        id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        operative: false,
-    },
-    {
-        id: 5,
-        title: "Webs Funcionando",
-        image: "/image-5.jpg",
-        urlGithub: "https://github.com/SKRTEEEEEE/frontpruebas",
-        urlDemo: "#",
-        operative: true,
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        operative: false,
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        operative: false,
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        operative: false,
-    }
 ];
 
 export const defiSection = [
@@ -258,7 +191,7 @@ export const defiSection = [
         name: "Aceptación de Pagos con Criptoactivos",
         description:
             "Permite a los clientes realizar transacciones utilizando criptomonedas como Bitcoin, Ethereum y muchas otras.",
-        imageUrl: "/profile1.png",
+        imageUrl: "/cryptopay.png",
        
     },
     {
@@ -266,7 +199,7 @@ export const defiSection = [
         name: "Aceptación de Pagos con Criptoactivos",
         description:
             "Proporciona una forma rápida, segura y transparente de procesar pagos.",
-        imageUrl: "/profile1.png",
+        imageUrl: "/cryptopay.png",
        
     },
     {
@@ -274,7 +207,7 @@ export const defiSection = [
         name: "Aceptación de Pagos con Criptoactivos",
         description:
             "Atrae a los entusiastas de las criptomonedas y a aquellos que buscan una forma alternativa de pago.",
-        imageUrl: "/profile1.png",
+        imageUrl: "/cryptopay.png",
        
     },
     {
@@ -282,7 +215,7 @@ export const defiSection = [
         name: "Aceptación de Pagos con NFTs",
         description:
             "Permite a los clientes pagar con NFTs exclusivos de su empresa o empresas las cuales le interesados.",
-        imageUrl: "/profile1.png",
+        imageUrl: "/nftspay.png",
        
     },
     {
@@ -290,7 +223,7 @@ export const defiSection = [
         name: "Aceptación de Pagos con NFTs",
         description:
             "Atrae a coleccionistas y entusiastas de los NFTs, y motiva al publico a utilizar vuestros servicios y estar mas vinculado y motivo al usar vuestra marca.",
-        imageUrl: "/profile1.png",
+        imageUrl: "/nftspay.png",
        
     },
     {
@@ -298,7 +231,7 @@ export const defiSection = [
         name: "Aceptación de Pagos con NFTs",
         description:
             "Permite coleccionar arte digital, el cual por razones artistícas o comerciales le interese a su marca.",
-        imageUrl: "/profile1.png",
+        imageUrl: "/nftspay.png",
        
     },
    
