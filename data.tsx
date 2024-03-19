@@ -1,9 +1,5 @@
-import { HomeIcon,  Github, Mail, Link, PackageSearch, ZoomIn } from "lucide-react";
-import { FaNodeJs, FaReact } from "react-icons/fa";
+import { HomeIcon,  Github, Mail, Link, PackageSearch, ZoomIn, Bitcoin } from "lucide-react";
 import { IoBusinessOutline } from "react-icons/io5";
-import { RiNftLine } from "react-icons/ri";
-import { SiSolidity, SiTailwindcss } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
 
 export const socialNetworks = [
     {
@@ -55,7 +51,7 @@ export const itemsNavbar = [
     {
         id: 5,
         title: "De-Fi",
-        icon: <RiNftLine size={25} color="#fff" strokeWidth={1} />,
+        icon: <Bitcoin size={25} color="#fff" strokeWidth={1} />,
         link: "/defi",
     },
     {
@@ -98,38 +94,6 @@ export const dataStudiesPage = [
         title: "Gestión de derechos de autor y propiedad intelectual",
         description: "Registra y protege los derechos de autor y la propiedad intelectual de manera segura y transparente. Esto puede ayudarle a proteger sus activos digitales y garantizar una compensación justa por su trabajo.",
     },
-];
-
-
-export const dataCounter = [
-    {
-        id: 0,
-        endCounter: 1,
-        text: "Año de experiencia",
-        lineRight: true,
-        lineRightMobile: true,
-    },
-    {
-        id: 1,
-        endCounter: 80,
-        text: "Funcionalidades desarolladas",
-        lineRight: true,
-        lineRightMobile: false,
-    },
-    {
-        id: 2,
-        endCounter: 20,
-        text: "Proyectos en github",
-        lineRight: true,
-        lineRightMobile: true,
-    },
-    // {
-    //     id: 3,
-    //     endCounter: 30,
-    //     text: "Premios ganadores",
-    //     lineRight: false,
-    //     lineRightMobile: false,
-    // },
 ];
 
 export const serviceData = [

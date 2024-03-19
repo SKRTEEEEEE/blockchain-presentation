@@ -1,24 +1,17 @@
 "use client"
 
-import Image from 'next/image';
-import { Pagination } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-
-import { defiSection } from '@/data';
-import CircleImage from '@/components/circle-image';
-// import AvatarPortfolio from '@/components/avatar-portfolio';
 import TransitionPage from '@/components/transition-page';
 import Link from 'next/link';
-import AvatarCode from '@/components/avatar-code';
+import AvatarServices from '@/components/avatar-services';
+import Image from 'next/image';
 
 const Web3Page = () => {
     return (
         <>
             <TransitionPage />
-            <AvatarCode/>
+            <Image src="/avatar-code.png" width="300" height="500" className="bottom-0 right-0 hidden md:inline-block md:absolute  " alt="Particles " />
             <div className='flex flex-col justify-center h-lvh'>
-                <CircleImage />
+                <AvatarServices />
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
                     No dude en solicitar
                     <span className="font-bold text-secondary"> mas información.
