@@ -21,7 +21,7 @@ Presentación de las posibilidades de aplicaciones de las tecnologías blockchai
 
 ### Información de Contacto
 
-#### [Enviame un mensaje](mailto:adanreh.m@gmail.com)
+#### [Envíame un mensaje](mailto:adanreh.m@gmail.com)
 
 ### Contribuciones y Problemas
 

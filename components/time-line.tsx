@@ -1,5 +1,5 @@
 import { dataStudiesPage } from "@/data";
-import Link from "next/link";
+
 
 const TimeLine = () => {
     return (
