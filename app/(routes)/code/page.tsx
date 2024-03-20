@@ -1,5 +1,5 @@
 
-import CodeSection from '@/components/code-section';
+import CodeSection from '@/components/routes/code-section';
 import TransitionPage from '@/components/main/transition-page';
 
 

@@ -39,14 +39,14 @@ export const itemsNavbar = [
         id: 3,
         title: "Target",
         icon: <PackageSearch size={25} color="#fff" strokeWidth={1} />,
-        link: "/portfolio",
+        link: "/link",
         
     },
     {
         id: 4,
         title: "Book",
         icon: < Link   size={25} color="#fff" strokeWidth={1} />,
-        link: "/about-me",
+        link: "/functions",
     },
     {
         id: 5,
@@ -148,6 +148,35 @@ export const serviceData = [
         description: "La integración abrirá oportunidades de colaboración con desarrolladores de juegos, aplicaciones, blockchains existentes, etc... Enriqueciendo la oferta de la marca y mejorando en engangment.",
     },
 ];
+export const formasComunesData = [
+    {
+        image: "/compromiso.png",
+        title: "Venta publica",
+        description: "Los compradores interesados pueden adquirirlos a cambio de una cantidad de criptomoneda o moneda fiduciaria establecida previamente",
+    },
+    {
+        image: "/competencia.png",
+        title: "Subasta",
+        description: "Subasta en la que los interesados pueden pujar, con duración determinada, continuar hasta que se alcanza un precio mínimo, o se cumplen ciertas condiciones",
+    },
+    {
+        image: "/fidelizacion-clientes.png",
+        title: "Gradual",
+        description: "Liberación en intervalos de tiempo predefinidos. Genera expectación y mantiene el interés de la audiencia a lo largo del tiempo.",
+    },
+    {
+        image: "/visibilidad.png",
+        title: "Lotes",
+        description: "Liberación en lotes más pequeños. Permite control sobre la distribución y la demanda, así como la posibilidad de ajustar la estrategia en función de la respuesta inicial del mercado.",
+    },
+    {
+        image: "/ingresos-ad.png",
+        title: "Objetivos",
+        description: "Liberación gradual o en etapas, vinculadas al logro de ciertos objetivos predefinidos. Incentiva la participación de la comunidad y promueve el compromiso.",
+    },
+
+   
+];
 
 export const defiSection = [
     {
@@ -198,5 +227,46 @@ export const defiSection = [
         imageUrl: "/nftspay.png",
        
     },
+   
+];
+export const importanciaLiberacionData = [
+    {
+        
+        title: "Exclusividad y escasez",
+        description:
+            "Un sistema de liberación cuidadosamente planificado puede crear una sensación de exclusividad y escasez alrededor de tus NFTs o tokens. Aumentando su atractivo para los coleccionistas y los seguidores de tu marca, ya que saben que están adquiriendo algo único y limitado. Dependiendo del sistema de liberación que elijas, puedes agregar valor a tu contenido digital.",
+        image: "/cryptopay.png",
+       
+    },
+    {
+        
+        title: "Fidelización audiencia",
+        description:
+            "Al implementar un sistema de liberación que involucre a tu audiencia de manera activa, como a través de concursos, sorteos o eventos especiales, puedes fomentar la participación y la fidelización de tus seguidores. Esto ayuda a mantener su interés en tu marca a largo plazo.",
+        image: "/cryptopay.png",
+       
+    },
+   
+    {
+        
+        title: "Control y distribución",
+        description:
+            "La elección del sistema de liberación te permite tener un mayor control sobre la distribución de tus NFTs o tokens. Esto es importante para garantizar que tus activos digitales lleguen a las manos adecuadas y se utilicen de manera que refuercen los valores y la identidad de tu marca.",
+        image: "/cryptopay.png",
+       
+    },
+   
+    {
+        
+        title: "Innovación y creatividad",
+        description:
+            "La variedad de sistemas de liberación disponibles te brinda la oportunidad de ser innovador y creativo en la forma en que presentas y distribuyes tus NFTs o tokens. Esto puede generar interés adicional por parte de tu audiencia y destacarte entre la multitud.",
+        image: "/cryptopay.png",
+       
+    },
+   
+   
+   
+
    
 ];

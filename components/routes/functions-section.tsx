@@ -1,8 +1,9 @@
+import { serviceData } from "@/data"
 import AvatarServices from "./avatar-services"
 import CircleImage from "./circle-image"
-import SliderServices from "./slider-services"
+import SliderDoble from "./slider-doble"
 
-const AboutSection = () => {
+const FunctionsSection = () => {
     return (
         <section>
               <CircleImage />
@@ -14,8 +15,8 @@ const AboutSection = () => {
 
                     <div className="md:mb-3 xl:text-3xl 
                     text-gray-300">
-                        <p className="mb-4 px-8 xl:mb-8">A estos NFTs, se podrán <br /><strong className="text-secondary"> integrar funciones adicionales como juegos o herramientas interactivas</strong> <br />para que los usuarios puedan disfrutar plenamente de su marca.
-                        </p>
+                        <div className="mb-4 px-8 xl:mb-8">A estos NFTs, se podrán <br /><h1 className="text-secondary"> integrar funciones adicionales como juegos o herramientas interactivas</h1><br />para que los usuarios puedan disfrutar plenamente de su marca.
+                        </div>
                     </div>
                     {/*                         
                     <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contacta conmigo</button> */}
@@ -26,11 +27,11 @@ const AboutSection = () => {
                 <p className="text-sm mb-2">
                             <i>Algunas de las ventajas de incluir dichas funciones son:</i>
                         </p>
-                    <SliderServices />
+                    <SliderDoble data={serviceData} />
                 </div>
             </div>
         </section>
     )
 }
 
-export default AboutSection
+export default FunctionsSection

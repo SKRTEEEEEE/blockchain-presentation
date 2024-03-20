@@ -1,6 +1,6 @@
 
 import ContainerPage from "@/components/main/container-page";
-import ServicesSection from "@/components/services-section";
+import ServicesSection from "@/components/routes/services-section";
 
 import TransitionPage from "@/components/main/transition-page";
 

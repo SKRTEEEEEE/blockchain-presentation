@@ -1,7 +1,7 @@
 "use client"
 
 import { CoverParticles } from "@/components/main/cover-particles";
-import Introduction from "@/components/introduction";
+import Introduction from "@/components/routes/introduction";
 import TransitionPage from "@/components/main/transition-page";
 
 export default function Home() {

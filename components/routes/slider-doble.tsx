@@ -3,10 +3,19 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 
-import { serviceData } from '@/data';
+// import { serviceData } from '@/data';
 import Image from 'next/image';
+interface ServiceItem {
+    image: string;
+    title: string;
+    description: string;
+}
 
-const SliderServices = () => {
+interface SliderDoubleProps {
+    data: ServiceItem[];
+}
+
+const SliderDoble: React.FC<SliderDoubleProps> = ({data}) => {
 
     return (
         <Swiper
@@ -16,7 +25,7 @@ const SliderServices = () => {
                     spaceBetween: 15
                 },
                 
-                1100: {
+                1024: {
                     slidesPerView: 2,
                     spaceBetween: 15
                 },
@@ -32,7 +41,7 @@ const SliderServices = () => {
             className="h-[240px] md:h-[340px] w-[350px] lg:w-[500px] md:w-[400px]"
         >
 
-            {serviceData.map((item, index) => (
+            {data.map((item, index) => (
                 <SwiperSlide key={index} >
                     <div className="grid px-6 py-8 h-auto md:h-[290px] rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 hover:border-secondary border-2">
                         <div className='flex xl:gap:6 gap-2 mb-2'> 
@@ -50,4 +59,4 @@ const SliderServices = () => {
     );
 }
 
-export default SliderServices;
+export default SliderDoble;
